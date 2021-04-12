@@ -3,3 +3,13 @@
 }
 
 /* Esto es el footer*/
+.footer {
+  border-top: solid 1px;
+  margin-top: 45px;
+}
+.footer-container {
+  margin-top: 30px;
+}
+.footer-container .footer-links {
+  text-decoration: none;
+}
