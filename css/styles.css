@@ -31,6 +31,45 @@
 
 /* Hasta aquí el header*/
 
+/* fortalezas y debilidades - María */
+
+.strenghts-container {
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 5%;
+  position: relative;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+.strenghts-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+  margin: 0;
+}
+
+.weaknesses-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
 /* Esto es el footer*/
 .footer {
   border-top: solid 1px #54585a;
@@ -59,4 +98,7 @@
   min-width: 115.9px;
   min-height: 45px;
   margin-top: 30px;
+}
+* {
+  max-width: 768px;
 }
