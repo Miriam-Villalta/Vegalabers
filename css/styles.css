@@ -4,12 +4,30 @@
 
 /* Esto es el footer*/
 .footer {
-  border-top: solid 1px;
+  border-top: solid 1px #54585a;
   margin-top: 45px;
 }
 .footer-container {
   margin-top: 30px;
+  text-align: center;
+}
+.footer-container .footer-copy {
+  margin: 20px auto;
+  color: #b8b8b9;
 }
 .footer-container .footer-links {
+  text-transform: uppercase;
+  margin-top: 20px auto;
+}
+.footer-container .footer-list {
+  list-style: none;
+}
+.footer-links .link {
   text-decoration: none;
+  color: #54585a;
+}
+.footer-container .footer-img {
+  min-width: 115.9px;
+  min-height: 45px;
+  margin-top: 30px;
 }
