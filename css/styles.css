@@ -1,6 +1,35 @@
 * {
   max-width: 768px;
 }
+/* Esto es el header*/
+.header-name {
+  height: 60px;
+  width: 100%;
+  background-color: #099d8d;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container-menu {
+  height: 45px;
+  background-color: #14d9c4;
+  position: fixed;
+  width: 100%;
+}
+.header-container-menu .menu {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  align-items: center;
+}
+.menu .header-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Hasta aquí el header*/
 
 /* Esto es el footer*/
 .footer {
