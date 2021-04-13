@@ -85,6 +85,8 @@ body {
   transform: translateY(140px);
   text-align: center;
   padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .teamtitle {
@@ -92,6 +94,9 @@ body {
   border: solid 1px aqua;
   margin-block: 20px;
   transform: translatey(-10px);
+  font-family: var(--font-t);
+  text-transform: uppercase;
+  color: var(--color-ag);
 }
 
 .team {
