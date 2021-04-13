@@ -153,6 +153,9 @@ body {
 }
 
 /* Esto es quienes somos*/
+a {
+  color: #14d9c4;
+}
 .aboutus {
   text-align: center;
 }
@@ -161,6 +164,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
+  font-family: var(--font-p);
   padding: 5%;
   position: relative;
 }
