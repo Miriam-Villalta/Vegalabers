@@ -58,21 +58,41 @@ body {
 
 .image-box {
   box-sizing: border-box;
+  display: flex;
   height: 320px;
-  width: 120px;
+  width: 320px;
   border: solid 1.5px black;
+  margin-bottom: 60px;
 }
 
 .slogan {
-  width: 290px;
-  height: 80px;
-  background-color: #797676;
+  width: 250px;
+  height: 40px;
+  background-color: #ffffff;
+  border: solid 1px #000000;
   font-family: var(--font-p);
+  position: absolute;
+  margin: 14px;
+  transform: translateY(140px);
+  text-align: center;
+  padding: 20px;
+}
+
+.teamtitle {
+  box-sizing: border-box;
+  border: solid 1px aqua;
+  margin-block: 20px;
+  transform: translatey(-10px);
 }
 
 .team {
+  box-sizing: border-box;
   background-color: #ffffff;
+  text-align: center;
   font-family: var(--font-p);
+  padding: 15px;
+  margin-bottom: 20px;
+  padding-block: 20px;
 }
 
 /* fortalezas y debilidades - María */
