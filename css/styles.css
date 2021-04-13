@@ -11,11 +11,11 @@
   --color-sg: #b8b8b9;
   --color-backg: #f1f1f1;
 }
-
+/*
 body {
   max-width: 320px;
 }
-
+*/
 /* Esto es el header*/
 .header-container {
   position: fixed;
@@ -198,10 +198,24 @@ body {
 /* Hasta aquí el footer movil*/
 /* Diseño responsive
 
-
+*/
 @media (min-width: 768px) {
+  .strenghts-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+  }
+  .strenghts-wrapper {
+    width: 45%;
+    margin: 1.2rem;
+  }
+  .weaknesses-wrapper {
+    width: 45%;
+    margin: 1.2rem;
+  }
 }
-
+/*
 @media (min-width: 1200px) {
 }
 */
