@@ -11,11 +11,11 @@
   --color-sg: #b8b8b9;
   --color-backg: #f1f1f1;
 }
-/*
+
 body {
   max-width: 320px;
 }
-*/
+
 /* Esto es el header*/
 .header-container {
   position: fixed;
