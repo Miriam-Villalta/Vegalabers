@@ -3,31 +3,40 @@
   font-family: opensans;
 }
 /* Esto es el header*/
+.header-container {
+  position: fixed;
+  width: 320px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .header-name {
   height: 60px;
   width: 100%;
-  background-color: #099d8d;
-  color: #ffffff;
+  background-color: var(--color-bg);
+  color: var(--color-w);
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: var(--font-t);
 }
-.header-container-menu {
+.header-menu {
   height: 45px;
-  background-color: #14d9c4;
-  position: fixed;
+  background-color: var(--color-ag);
   width: 100%;
-}
-.header-container-menu .menu {
   display: flex;
-  justify-content: space-around;
-  text-transform: uppercase;
   align-items: center;
+  justify-content: space-around;
+}
+.header-menu .menu {
+  text-transform: uppercase;
 }
 .menu .header-link {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--color-w);
+  font-family: var(--font-t);
 }
 
 /* Hasta aquí el header*/
@@ -44,58 +53,85 @@
 
 .image-box {
   box-sizing: border-box;
+  display: flex;
   height: 320px;
-  width: 120px;
+  width: 320px;
   border: solid 1.5px black;
+  margin-bottom: 60px;
 }
 
 .slogan {
-  width: 290px;
-  height: 80px;
-  background-color: #797676;
+  width: 250px;
+  height: 40px;
+  background-color: #ffffff;
+  border: solid 1px #000000;
+  font-family: var(--font-p);
+  position: absolute;
+  margin: 14px;
+  transform: translateY(140px);
+  text-align: center;
+  padding: 20px;
+}
+
+.teamtitle {
+  box-sizing: border-box;
+  border: solid 1px aqua;
+  margin-block: 20px;
+  transform: translatey(-10px);
 }
 
 .team {
+  box-sizing: border-box;
   background-color: #ffffff;
+  text-align: center;
+  font-family: var(--font-p);
+  padding: 15px;
+  margin-bottom: 20px;
+  padding-block: 20px;
 }
 
 /* fortalezas y debilidades - María */
 
 .strenghts-container {
-  box-sizing: border-box;
+  font-family: var(--font-p);
+  color: var(--color-b);
   background-color: #f1f1f1;
+  line-height: 1.4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  padding: 5%;
+  padding: 35px 12% 45px 12%;
   position: relative;
 }
 
-.triangle {
-  width: 0;
-  height: 0;
+.strenghts-container .triangle {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid white;
   position: absolute;
-  left: 50%;
+  left: 45%;
   top: 0;
 }
 
-.strenghts-wrapper {
-  box-sizing: border-box;
+.strenghts-container .strenghts-wrapper {
   display: flex;
   flex-direction: column;
-  margin-bottom: 3%;
-  margin: 0;
+  margin-bottom: 30px;
 }
 
-.weaknesses-wrapper {
+.strenghts-container .strenghts-font-style {
+  font-family: var(--font-t);
+  color: var(--color-bg);
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.strenghts-container .weaknesses-wrapper {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin: 0;
 }
 
 /* Esto es quienes somos*/
@@ -116,7 +152,8 @@ a {
 
 /* Esto es el footer*/
 .footer {
-  border-top: solid 1px #54585a;
+  border-top: solid 1px;
+  border-color: var(--color-dg);
   margin-top: 45px;
 }
 .footer-container {
@@ -125,7 +162,8 @@ a {
 }
 .footer-container .footer-copy {
   margin: 20px auto;
-  color: #b8b8b9;
+  color: var(--color-sg);
+  font-family: var(--font-p);
 }
 .footer-container .footer-links {
   text-transform: uppercase;
@@ -136,13 +174,37 @@ a {
 }
 .footer-links .link {
   text-decoration: none;
-  color: #54585a;
+  color: var(--color-dg);
+  font-family: var(--font-p);
+  line-height: 1.43;
+  font-weight: bold;
 }
 .footer-container .footer-img {
   min-width: 115.9px;
   min-height: 45px;
   margin-top: 30px;
 }
-* {
-  max-width: 768px;
+/* Hasta aquí el footer movil*/
+/* Diseño responsive
+
+*/
+@media (min-width: 768px) {
+  .strenghts-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+  }
+  .strenghts-wrapper {
+    width: 45%;
+    margin: 1.2rem;
+  }
+  .weaknesses-wrapper {
+    width: 45%;
+    margin: 1.2rem;
+  }
 }
+/*
+@media (min-width: 1200px) {
+}
+*/
