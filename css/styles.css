@@ -31,6 +31,35 @@
 
 /* Hasta aquí el header*/
 
+/* Imagen, lema y equipo - Miriam*/
+
+.container-imgslog {
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image-box {
+  margin: 0 0 46px;
+  padding: 0 0 316px;
+  box-sizing: border-box;
+  height: 10;
+  border: solid 1.5px black;
+}
+
+.slogan {
+  width: 290px;
+  height: 80px;
+  padding: 14px 15px 16px;
+  background-color: #797676;
+}
+
+.team {
+  background-color: #ffffff;
+}
+
 /* fortalezas y debilidades - María */
 
 .strenghts-container {
