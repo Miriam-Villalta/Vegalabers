@@ -1,0 +1,104 @@
+* {
+  max-width: 768px;
+}
+/* Esto es el header*/
+.header-name {
+  height: 60px;
+  width: 100%;
+  background-color: #099d8d;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container-menu {
+  height: 45px;
+  background-color: #14d9c4;
+  position: fixed;
+  width: 100%;
+}
+.header-container-menu .menu {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  align-items: center;
+}
+.menu .header-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Hasta aquí el header*/
+
+/* fortalezas y debilidades - María */
+
+.strenghts-container {
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 5%;
+  position: relative;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+.strenghts-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+  margin: 0;
+}
+
+.weaknesses-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+/* Esto es el footer*/
+.footer {
+  border-top: solid 1px #54585a;
+  margin-top: 45px;
+}
+.footer-container {
+  margin-top: 30px;
+  text-align: center;
+}
+.footer-container .footer-copy {
+  margin: 20px auto;
+  color: #b8b8b9;
+}
+.footer-container .footer-links {
+  text-transform: uppercase;
+  margin-top: 20px auto;
+}
+.footer-container .footer-list {
+  list-style: none;
+}
+.footer-links .link {
+  text-decoration: none;
+  color: #54585a;
+}
+.footer-container .footer-img {
+  min-width: 115.9px;
+  min-height: 45px;
+  margin-top: 30px;
+}
+* {
+  max-width: 768px;
+}
