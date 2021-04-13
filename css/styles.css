@@ -70,6 +70,19 @@
   margin: 0;
 }
 
+/* Esto es quienes somos*/
+.aboutus {
+  text-align: center;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 5%;
+  position: relative;
+}
+
 /* Esto es el footer*/
 .footer {
   border-top: solid 1px #54585a;
