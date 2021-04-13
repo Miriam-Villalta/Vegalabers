@@ -78,40 +78,45 @@ body {
 /* fortalezas y debilidades - María */
 
 .strenghts-container {
-  box-sizing: border-box;
+  font-family: var(--font-p);
+  color: var(--color-b);
   background-color: #f1f1f1;
+  line-height: 1.4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  padding: 5%;
+  padding: 35px 12% 45px 12%;
   position: relative;
 }
 
-.triangle {
-  width: 0;
-  height: 0;
+.strenghts-container .triangle {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid white;
   position: absolute;
-  left: 50%;
+  left: 45%;
   top: 0;
 }
 
-.strenghts-wrapper {
-  box-sizing: border-box;
+.strenghts-container .strenghts-wrapper {
   display: flex;
   flex-direction: column;
-  margin-bottom: 3%;
-  margin: 0;
+  margin-bottom: 30px;
 }
 
-.weaknesses-wrapper {
+.strenghts-container .strenghts-font-style {
+  font-family: var(--font-t);
+  color: var(--color-bg);
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.strenghts-container .weaknesses-wrapper {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin: 0;
 }
 
 /* Esto es quienes somos*/
@@ -158,6 +163,7 @@ body {
 }
 
 /* Diseño responsive
+
 
 @media (min-width: 768px) {
 }
