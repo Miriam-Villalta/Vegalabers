@@ -138,7 +138,8 @@ body {
 
 /* Esto es el footer*/
 .footer {
-  border-top: solid 1px #54585a;
+  border-top: solid 1px;
+  border-color: var(--color-dg);
   margin-top: 45px;
 }
 .footer-container {
@@ -147,7 +148,8 @@ body {
 }
 .footer-container .footer-copy {
   margin: 20px auto;
-  color: #b8b8b9;
+  color: var(--color-sg);
+  font-family: var(--font-p);
 }
 .footer-container .footer-links {
   text-transform: uppercase;
@@ -158,13 +160,17 @@ body {
 }
 .footer-links .link {
   text-decoration: none;
-  color: #54585a;
+  color: var(--color-dg);
+  font-family: var(--font-p);
+  line-height: 1.43;
+  font-weight: bold;
 }
 .footer-container .footer-img {
   min-width: 115.9px;
   min-height: 45px;
   margin-top: 30px;
 }
+/* Hasta aquí el footer movil*/
 
 /* Diseño responsive
 
