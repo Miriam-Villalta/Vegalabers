@@ -92,6 +92,10 @@ body {
   border: solid 1px aqua;
   margin-block: 20px;
   transform: translatey(-10px);
+  font-family: var(--font-t);
+  text-transform: uppercase;
+  color: var(--color-ag);
+  font-size: 24px;
 }
 
 .team {
