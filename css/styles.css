@@ -1,6 +1,21 @@
-* {
-  max-width: 768px;
+/* estilos */
+
+:root {
+  --font-p: "Open Sans", sans-serif;
+  --font-t: "Rubik", sans-serif;
+  --color-bg: #099d8d;
+  --color-ag: #14d9c4;
+  --color-w: #ffffff;
+  --color-b: #000000;
+  --color-dg: #54585a;
+  --color-sg: #b8b8b9;
+  --color-backg: #f1f1f1;
 }
+
+body {
+  max-width: 320px;
+}
+
 /* Esto es el header*/
 .header-name {
   height: 60px;
@@ -52,10 +67,12 @@
   width: 290px;
   height: 80px;
   background-color: #797676;
+  font-family: var(--font-p);
 }
 
 .team {
   background-color: #ffffff;
+  font-family: var(--font-p);
 }
 
 /* fortalezas y debilidades - María */
@@ -139,6 +156,12 @@
   min-height: 45px;
   margin-top: 30px;
 }
-* {
-  max-width: 768px;
+
+/* Diseño responsive
+
+@media (min-width: 768px) {
 }
+
+@media (min-width: 1200px) {
+}
+*/
