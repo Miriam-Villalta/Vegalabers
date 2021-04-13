@@ -1,5 +1,6 @@
 * {
   max-width: 768px;
+  font-family: opensans;
 }
 /* Esto es el header*/
 .header-name {
@@ -98,6 +99,9 @@
 }
 
 /* Esto es quienes somos*/
+a {
+  color: #14d9c4;
+}
 .aboutus {
   text-align: center;
 }
