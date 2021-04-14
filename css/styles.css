@@ -207,7 +207,7 @@ a {
 /* Hasta aquí el footer movil*/
 /* Diseño responsive
 
-*/
+
 @media (min-width: 768px) {
   .strenghts-container {
     flex-direction: row;
@@ -224,7 +224,7 @@ a {
     margin: 1.2rem;
   }
 }
-/*
+
 @media (min-width: 1200px) {
 }
 */
