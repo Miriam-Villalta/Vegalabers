@@ -91,7 +91,6 @@ body {
 
 .teamtitle {
   box-sizing: border-box;
-  border: solid 1px aqua;
   margin-block: 20px;
   transform: translatey(-10px);
   font-family: var(--font-t);
