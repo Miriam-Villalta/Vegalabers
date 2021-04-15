@@ -272,7 +272,7 @@ a {
   }
 
   /* -----Fortalezas y Debilidades------- */
-  /* .strenghts-container {
+  .strenghts-container {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -285,7 +285,8 @@ a {
   .weaknesses-wrapper {
     width: 45%;
     margin: 1.2rem;
-  } */
+  }
+
   /* -----Footer-------- */
   .footer {
     width: 100vw;
