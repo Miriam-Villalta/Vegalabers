@@ -258,8 +258,8 @@ a {
     margin-top: 0px;
   }
   .footer-container {
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: row;
   }
@@ -268,18 +268,21 @@ a {
     display: flex;
     justify-content: flex-start;
   }
-  .footer-container .footer-links {
-    text-align: end;
-  }
+
   .footer-container .footer-list {
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    top: 25px;
   }
-  .footer-links .link {
+  .footer-list .link {
+    display: flex;
   }
   .footer-container .footer-img {
     display: flex;
     justify-content: flex-start;
+    width: 115.9px;
+    height: 45px;
   }
 }
 
