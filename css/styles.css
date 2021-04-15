@@ -36,17 +36,16 @@ body {
   align-items: center;
   font-family: var(--font-t);
 }
-.header .header-menu {
+.header .menu {
   height: 45px;
   background-color: var(--color-ag);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-.header-menu .menu {
   text-transform: uppercase;
 }
+
 .menu .header-link {
   text-decoration: none;
   color: var(--color-w);
@@ -204,10 +203,39 @@ a {
   margin-top: 30px;
 }
 /* Hasta aquí el footer movil*/
-/* Diseño responsive
-
 
 @media (min-width: 768px) {
+  /* ------Header-------- */
+.header {
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width:100vw;
+  background-color: var(--color-bg);
+  height: 60px;
+}
+.header .header-name {
+  padding-left: 45px;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+
+}
+.header .menu {
+  background-color: var(--color-bg);
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  padding: right 26px;;
+}
+.menu .header-link {
+padding-right: 19px;
+}
+/* Diseño responsive
+  ------Fortalezas y Debilidades--------
   .strenghts-container {
     flex-direction: row;
     justify-content: space-evenly;
@@ -222,6 +250,7 @@ a {
     width: 45%;
     margin: 1.2rem;
   }
+------Fortalezas y Debilidades--------
 }
 
 @media (min-width: 1200px) {
