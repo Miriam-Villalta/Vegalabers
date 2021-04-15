@@ -15,7 +15,9 @@
 body {
   max-width: 320px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* Esto es el header*/
 .header {
   position: fixed;
@@ -183,14 +185,13 @@ a {
   color: var(--color-sg);
   font-family: var(--font-p);
 }
-.footer-container .footer-links {
+
+.footer-container .footer-list {
   text-transform: uppercase;
   margin-top: 20px auto;
-}
-.footer-container .footer-list {
   list-style: none;
 }
-.footer-links .link {
+.footer-list .link {
   text-decoration: none;
   color: var(--color-dg);
   font-family: var(--font-p);
@@ -204,9 +205,10 @@ a {
 }
 /* Hasta aquí el footer movil*/
 
-/* Diseño responsive
+/* Diseño responsive*/
+
 @media (min-width: 768px) {
-------Header-------- 
+  /* ------Header-------- */
   .header {
     position: fixed;
     z-index: 2;
@@ -234,9 +236,9 @@ a {
   .menu .header-link {
     padding-right: 19px;
   }
-  
-  ------Fortalezas y Debilidades--------
-  .strenghts-container {
+
+  /* -----Fortalezas y Debilidades------- */
+  /* .strenghts-container {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -249,9 +251,37 @@ a {
   .weaknesses-wrapper {
     width: 45%;
     margin: 1.2rem;
+  } */
+  /* -----Footer-------- */
+  .footer {
+    width: 100vw;
+    margin-top: 0px;
   }
-------Footer--------
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .footer-container .footer-copy {
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-container .footer-links {
+    text-align: end;
+  }
+  .footer-container .footer-list {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer-links .link {
+  }
+  .footer-container .footer-img {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 @media (min-width: 1200px) {
-} */
+}
