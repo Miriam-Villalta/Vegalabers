@@ -8,7 +8,7 @@
   --color-w: #ffffff;
   --color-b: #000000;
   --color-dg: #54585a;
-  --color-sg: #b8b8b9;
+  --color-sg: #b8b8b9;git 
   --color-backg: #f1f1f1;
 }
 
@@ -153,13 +153,47 @@ body {
   flex-direction: column;
 }
 
-/* Esto es quienes somos*/
+/* quienes somos: Lucía*/
 a {
   color: #14d9c4;
 }
 .aboutus {
   text-align: center;
+  padding-top: 30px;
 }
+
+.title {
+  font-family: var(--font-t);
+  color: var(--color-bg);
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.name {
+  font-family: var(--font-t);
+  font-size: 20px;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}
+
+.icons {
+  padding-top: 15px;
+}
+
+.bio {
+  padding: 30px, 15px, 45px;
+  font-family: var(--font-p);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+  margin: 25px;
+}
+
 .profile {
   display: flex;
   flex-direction: column;
