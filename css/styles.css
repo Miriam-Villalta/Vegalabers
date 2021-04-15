@@ -15,9 +15,11 @@
 body {
   max-width: 320px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* Esto es el header*/
-.header-container {
+.header {
   position: fixed;
   width: 320px;
   z-index: 2;
@@ -25,7 +27,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.header-name {
+.header .header-name {
   height: 60px;
   width: 100%;
   background-color: var(--color-bg);
@@ -36,17 +38,16 @@ body {
   align-items: center;
   font-family: var(--font-t);
 }
-.header-menu {
+.header .menu {
   height: 45px;
   background-color: var(--color-ag);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-.header-menu .menu {
   text-transform: uppercase;
 }
+
 .menu .header-link {
   text-decoration: none;
   color: var(--color-w);
@@ -91,7 +92,6 @@ body {
 
 .teamtitle {
   box-sizing: border-box;
-  border: solid 1px aqua;
   margin-block: 20px;
   transform: translatey(-10px);
   font-family: var(--font-t);
@@ -219,14 +219,13 @@ a {
   color: var(--color-sg);
   font-family: var(--font-p);
 }
-.footer-container .footer-links {
+
+.footer-container .footer-list {
   text-transform: uppercase;
   margin-top: 20px auto;
-}
-.footer-container .footer-list {
   list-style: none;
 }
-.footer-links .link {
+.footer-list .link {
   text-decoration: none;
   color: var(--color-dg);
   font-family: var(--font-p);
@@ -239,11 +238,41 @@ a {
   margin-top: 30px;
 }
 /* Hasta aquí el footer movil*/
-/* Diseño responsive
 
-*/
+/* Diseño responsive*/
+
 @media (min-width: 768px) {
-  .strenghts-container {
+  /* ------Header-------- */
+  .header {
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: var(--color-bg);
+    height: 60px;
+  }
+  .header .header-name {
+    padding-left: 45px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+  }
+  .header .menu {
+    background-color: var(--color-bg);
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding: right 26px;
+  }
+  .menu .header-link {
+    padding-right: 19px;
+  }
+
+  /* -----Fortalezas y Debilidades------- */
+  /* .strenghts-container {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -256,9 +285,40 @@ a {
   .weaknesses-wrapper {
     width: 45%;
     margin: 1.2rem;
+  } */
+  /* -----Footer-------- */
+  .footer {
+    width: 100vw;
+    margin-top: 0px;
+  }
+  .footer-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .footer-container .footer-copy {
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footer-container .footer-list {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 25px;
+  }
+  .footer-list .link {
+    display: flex;
+  }
+  .footer-container .footer-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 115.9px;
+    height: 45px;
   }
 }
-/*
+
 @media (min-width: 1200px) {
 }
-*/
