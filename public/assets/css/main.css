@@ -395,6 +395,9 @@ a {
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem; }
+  .triangle {
+    position: absolute;
+    top: 0; }
   .strenghts-wrapper {
     width: 45%;
     margin: 1.2rem; }
