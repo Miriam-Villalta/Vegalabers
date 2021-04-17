@@ -249,6 +249,8 @@ html {
 
 /* fortalezas y debilidades - María */
 .strenghts-container {
+  width: 100%;
+  box-sizing: border-box;
   font-family: var(--font-p);
   color: var(--color-b);
   background-color: #f1f1f1;
@@ -260,12 +262,12 @@ html {
   position: relative; }
 
 .strenghts-container .triangle {
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid white;
-  position: absolute;
-  left: 45%;
-  top: 0; }
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid white; }
 
 .strenghts-container .strenghts-wrapper {
   display: flex;
@@ -275,9 +277,10 @@ html {
 .strenghts-container .strenghts-font-style {
   font-family: var(--font-t);
   color: var(--color-bg);
+  line-height: 1.4rem;
   font-weight: bold;
   font-size: 22px;
-  padding-bottom: 10px; }
+  padding: 0.625rem; }
 
 .strenghts-container .weaknesses-wrapper {
   box-sizing: border-box;
