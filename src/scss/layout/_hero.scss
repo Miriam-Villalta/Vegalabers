@@ -1,0 +1,31 @@
+.container-imgslog {
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.image-box {
+  box-sizing: border-box;
+  display: flex;
+  height: 320px;
+  border: solid 1.5px black;
+  margin-bottom: 60px;
+}
+
+.slogan {
+  width: 250px;
+  height: 40px;
+  background-color: #ffffff;
+  border: solid 1px #000000;
+  font-family: var(--font-p);
+  position: absolute;
+  margin: 14px;
+  transform: translateY(140px);
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}

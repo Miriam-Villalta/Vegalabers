@@ -1,0 +1,66 @@
+.strenghts-container {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: var(--font-p);
+  color: var(--color-b);
+  background-color: #f1f1f1;
+  line-height: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  position: relative;
+}
+
+.strenghts-container .triangle {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid white;
+}
+
+.strenghts-container .strenghts-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.strenghts-container .strenghts-font-style {
+  font-family: var(--font-t);
+  color: var(--color-bg);
+  line-height: 1.4rem;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0.625rem;
+}
+
+.strenghts-container .weaknesses-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .strenghts-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .triangle {
+    position: absolute;
+    top: 0;
+  }
+
+  .strenghts-wrapper {
+    width: 45%;
+    margin: 1.2rem;
+  }
+  .weaknesses-wrapper {
+    width: 45%;
+    margin: 1.2rem;
+  }
+}
