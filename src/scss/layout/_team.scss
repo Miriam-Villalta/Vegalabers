@@ -4,16 +4,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 .team {
   &__title {
     box-sizing: border-box;
-    margin-block: 20px;
-    transform: translatey(-10px);
     font-family: $font-t;
     text-transform: uppercase;
     color: $color-ag;
     text-align: center;
+    font-size: 1.5rem;
   }
 
   &__text {
@@ -22,12 +22,20 @@
     background-color: $color-w;
     text-align: center;
     font-family: $font-p;
-    padding: 15px;
+    margin: 15px;
     margin-bottom: 20px;
-    padding-block: 20px;
+    padding: 20px;
 
     @media all and (min-width: 768px) {
       width: 678px;
+      margin: 45px;
+      height: 168px;
+    }
+
+    @media all and (min-width: 1000px) {
+      width: 678px;
+      margin: 45px;
+      height: 200px;
     }
   }
 }

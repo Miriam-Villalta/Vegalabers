@@ -136,10 +136,6 @@ body {
 html {
   scroll-behavior: smooth; }
 
-.main-container {
-  padding-left: 12%;
-  padding-right: 12%; }
-
 .code {
   font-size: 16px;
   background: #d8d8d8;
@@ -217,17 +213,14 @@ html {
   box-sizing: content-box;
   display: flex;
   flex-wrap: wrap;
-  border: solid 1px black;
-  justify-content: center;
   flex-direction: column;
   width: 100%;
-  /*mirar scroll*/
-  margin: 0 auto;
-  height: 200px; }
+  height: 200px;
+  margin: 0 auto; }
   #container__imagebox {
     box-sizing: border-box;
-    height: 320px;
     border: solid 1.5px black;
+    height: 320px;
     margin-bottom: 60px; }
   #container__slogan {
     width: 400px;
@@ -243,25 +236,26 @@ html {
     /*cambiar con texto definitivo*/
     font-weight: bold;
     font-size: 18px; }
-    @media all and (min-width: 768px) {
-      #container__slogan {
-        transform: translateY(50px); } }
+  @media all and (min-width: 768px) {
+    #container {
+      transform: translateY(50px);
+      background: #5a4545; } }
 
 #adalabers {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-top: 20px; }
 
 .team__title {
   box-sizing: border-box;
-  margin-block: 20px;
-  transform: translatey(-10px);
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   color: #14d9c4;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.5rem; }
 
 .team__text {
   box-sizing: border-box;
@@ -269,12 +263,19 @@ html {
   background-color: #ffffff;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  padding: 15px;
+  margin: 15px;
   margin-bottom: 20px;
-  padding-block: 20px; }
+  padding: 20px; }
   @media all and (min-width: 768px) {
     .team__text {
-      width: 678px; } }
+      width: 678px;
+      margin: 45px;
+      height: 168px; } }
+  @media all and (min-width: 1000px) {
+    .team__text {
+      width: 678px;
+      margin: 45px;
+      height: 200px; } }
 
 .strenghts-container {
   width: 100%;
