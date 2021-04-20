@@ -217,10 +217,13 @@ html {
   box-sizing: content-box;
   display: flex;
   flex-wrap: wrap;
+  border: solid 1px black;
   justify-content: center;
   flex-direction: column;
-  width: 100vw;
-  /*mirar scroll*/ }
+  width: 100%;
+  /*mirar scroll*/
+  margin: 0 auto;
+  height: 200px; }
   #container__imagebox {
     box-sizing: border-box;
     height: 320px;
