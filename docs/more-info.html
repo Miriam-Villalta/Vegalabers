@@ -1,37 +1,37 @@
+
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+</head>
+<body>
+  HEADER
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Otra página del starter kit</h1>
-      </header>
 
-      <main>
-        <p>
-          Esta es otra segunda página del Starter kit. Mira el fichero
-          <code class="code">./src/html/partials/main.html</code> para cómo hemos creado el enlace
-          que te ha traído hasta aquí.
-        </p>
-      </main>
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+  Contacto
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima nostrum expedita quasi aperiam consectetur optio id et sequi deserunt sunt cum a eaque veniam, dicta quod consequatur? Praesentium, eum.
+  Todos los campos marcados con * son obligatorios.
 
-        </small>
-      </footer>
+  <form action="/signup" metod="post">
+    <label for="name">Nombre completo *
+      <input type="text" name="name" id="name" placeholder="Nombre..." required>
+    </label>
+    <label for="email">Email *
+      <input type="email" name="email" id="email" placeholder="nombre.apellidos@mail.com" required>
+    </label>
+    <label for="tlf">Teléfono
+      <input type="tel" name="tlf" id="tlf" placeholder="Ej. 123456789">
+    </label>
+    <label for="msg">Mensaje *
+      <input type="text" name="msg" id="msg" placeholder="¿Qué necesitas?" required>
+    </label>
+    <input type="submit" value="Enviar">
 
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+  </form>
+
+  FOOTER
+</body>
 </html>
