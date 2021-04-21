@@ -336,19 +336,24 @@ a {
   line-height: 2.25;
   letter-spacing: 1px;
   text-align: center;
-  color: #f1f1f1;
+  color: black;
   font-weight: bold; }
 
 .icons {
-  padding-top: 15px; }
+  padding-top: 20px;
+  width: 127px;
+  display: flex;
+  justify-content: space-between; }
 
 .bio {
+  padding: 30px, 15px, 45px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
-  color: #54585a; }
+  color: #54585a;
+  margin: 5px; }
 
 .profile {
   display: flex;
@@ -356,7 +361,15 @@ a {
   justify-content: space-evenly;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  position: relative; }
+  padding: 5%;
+  position: relative;
+  align-items: center; }
+
+.icons :link:after {
+  content: ".";
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -5px; }
 
 .footer {
   border-top: solid 1px;

@@ -20,23 +20,26 @@ a {
   line-height: 2.25;
   letter-spacing: 1px;
   text-align: center;
-  color: $color-back;
+  color: black;
   font-weight: bold;
 }
 
 .icons {
-  padding-top: 15px;
+  padding-top: 20px;
+  width: 127px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .bio {
-  // padding: 30px, 15px, 45px;
+  padding: 30px, 15px, 45px;
   font-family: $font-p;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
-  // margin: 25px;
+  margin: 5px;
 }
 
 .profile {
@@ -45,6 +48,14 @@ a {
   justify-content: space-evenly;
   text-align: center;
   font-family: $font-p;
-  // padding: 5%;
+  padding: 5%;
   position: relative;
+  align-items: center;
+}
+
+.icons :link:after {
+  content: ".";
+  position: absolute;
+  margin-left: 5px;
+  margin-top: -5px;
 }
