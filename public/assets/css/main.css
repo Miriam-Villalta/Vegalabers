@@ -300,7 +300,6 @@ html {
       height: 200px; } }
 
 .strenghts-container {
-  width: 100%;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   color: #000000;
@@ -310,7 +309,8 @@ html {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  position: relative; }
+  position: relative;
+  padding-bottom: 2.813rem; }
 
 .strenghts-container .triangle {
   display: flex;
