@@ -316,9 +316,9 @@ html {
   display: flex;
   justify-content: center;
   align-self: center;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 30px solid white; }
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid white; }
 
 .strenghts-container .strenghts-wrapper {
   display: flex;
