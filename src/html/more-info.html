@@ -15,12 +15,15 @@
 <body>
   <include src="./partials/header.html" title="contacto"></include>
 
+  <section class="container">
+    <h2 class="container__title">Contacto</h2>
+    <p class="container__item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima nostrum expedita quasi aperiam consectetur optio id et sequi deserunt sunt cum a eaque veniam, dicta quod consequatur? Praesentium, eum.
+      Todos los campos marcados con * son obligatorios.
+    </p>
+  </section>
 
-  Contacto
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima nostrum expedita quasi aperiam consectetur optio id et sequi deserunt sunt cum a eaque veniam, dicta quod consequatur? Praesentium, eum.
-  Todos los campos marcados con * son obligatorios.
-
-  <form action="/signup" metod="post">
+  <form action="/signup" metod="post" class="form-container">
     <label for="name">Nombre completo *
       <input type="text" name="name" id="name" placeholder="Nombre..." required>
     </label>
