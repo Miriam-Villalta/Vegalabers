@@ -1,13 +1,14 @@
-.container-imgslog {
+#container {
   box-sizing: content-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   width: 100vw;
 }
 
-.image-box {
+.imagebox {
   box-sizing: border-box;
   display: flex;
   height: 320px;
@@ -16,16 +17,16 @@
 }
 
 .slogan {
-  width: 250px;
-  height: 40px;
+  width: 340px;
+  height: 100px;
   background-color: #ffffff;
   border: solid 1px #000000;
   font-family: $font-p;
   position: absolute;
-  margin: 14px;
-  transform: translateY(140px);
-  text-align: center;
+  transform: translateY(-130px);
+
   padding: 20px;
   font-weight: bold;
   font-size: 18px;
+  margin: 20px;
 }
