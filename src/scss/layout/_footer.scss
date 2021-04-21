@@ -1,6 +1,6 @@
 .footer {
   border-top: solid 1px;
-  border-color: var(--color-dg);
+  border-color: $color-dg;
   margin-top: 45px;
 }
 .footer-container {
@@ -9,8 +9,8 @@
 }
 .footer-container .footer-copy {
   margin: 20px auto;
-  color: var(--color-sg);
-  font-family: var(--font-p);
+  color: $color-sg;
+  font-family: $font-p;
 }
 
 .footer-container .footer-list {
@@ -20,8 +20,8 @@
 }
 .footer-list .link {
   text-decoration: none;
-  color: var(--color-dg);
-  font-family: var(--font-p);
+  color: $color-dg;
+  font-family: $font-p;
   line-height: 1.43;
   font-weight: bold;
 }

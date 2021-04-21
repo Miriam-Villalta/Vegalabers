@@ -165,17 +165,17 @@ html {
 .header .header-name {
   height: 60px;
   width: 100%;
-  background-color: var(--color-bg);
-  color: var(--color-w);
+  background-color: #099d8d;
+  color: #ffffff;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: var(--font-t); }
+  font-family: "Rubik", sans-serif; }
 
 .header .menu {
   height: 45px;
-  background-color: var(--color-ag);
+  background-color: #14d9c4;
   width: 100%;
   display: flex;
   align-items: center;
@@ -184,8 +184,8 @@ html {
 
 .menu .header-link {
   text-decoration: none;
-  color: var(--color-w);
-  font-family: var(--font-t); }
+  color: #ffffff;
+  font-family: "Rubik", sans-serif; }
 
 @media (min-width: 768px) {
   /* ------Header-------- */
@@ -197,7 +197,7 @@ html {
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    background-color: var(--color-bg);
+    background-color: #099d8d;
     height: 60px; }
   .header .header-name {
     padding-left: 45px;
@@ -205,7 +205,7 @@ html {
     display: flex;
     justify-content: left; }
   .header .menu {
-    background-color: var(--color-bg);
+    background-color: #099d8d;
     height: 60px;
     display: flex;
     justify-content: space-around;
@@ -233,7 +233,7 @@ html {
   height: 40px;
   background-color: #ffffff;
   border: solid 1px #000000;
-  font-family: var(--font-p);
+  font-family: "Open Sans", sans-serif;
   position: absolute;
   margin: 14px;
   transform: translateY(140px);
@@ -246,15 +246,15 @@ html {
   box-sizing: border-box;
   margin-block: 20px;
   transform: translatey(-10px);
-  font-family: var(--font-t);
+  font-family: "Rubik", sans-serif;
   text-transform: uppercase;
-  color: var(--color-ag); }
+  color: #14d9c4; }
 
 .team {
   box-sizing: border-box;
   background-color: #ffffff;
   text-align: center;
-  font-family: var(--font-p);
+  font-family: "Open Sans", sans-serif;
   padding: 15px;
   margin-bottom: 20px;
   padding-block: 20px; }
@@ -262,8 +262,8 @@ html {
 .strenghts-container {
   width: 100%;
   box-sizing: border-box;
-  font-family: var(--font-p);
-  color: var(--color-b);
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
   background-color: #f1f1f1;
   line-height: 1.4rem;
   display: flex;
@@ -286,8 +286,8 @@ html {
   margin-bottom: 30px; }
 
 .strenghts-container .strenghts-font-style {
-  font-family: var(--font-t);
-  color: var(--color-bg);
+  font-family: "Rubik", sans-serif;
+  color: #099d8d;
   line-height: 1.4rem;
   font-weight: bold;
   font-size: 22px;
@@ -322,14 +322,14 @@ a {
   padding-top: 30px; }
 
 .title {
-  font-family: var(--font-t);
-  color: var(--color-bg);
+  font-family: "Rubik", sans-serif;
+  color: #099d8d;
   font-weight: bold;
   font-size: 22px;
   padding-bottom: 10px; }
 
 .name {
-  font-family: var(--font-p);
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 2.25;
   letter-spacing: 1px;
@@ -341,7 +341,7 @@ a {
   padding-top: 15px; }
 
 .bio {
-  font-family: var(--font-p);
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: normal;
@@ -353,12 +353,12 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  font-family: var(--font-p);
+  font-family: "Open Sans", sans-serif;
   position: relative; }
 
 .footer {
   border-top: solid 1px;
-  border-color: var(--color-dg);
+  border-color: #54585a;
   margin-top: 45px; }
 
 .footer-container {
@@ -367,8 +367,8 @@ a {
 
 .footer-container .footer-copy {
   margin: 20px auto;
-  color: var(--color-sg);
-  font-family: var(--font-p); }
+  color: #b8b8b9;
+  font-family: "Open Sans", sans-serif; }
 
 .footer-container .footer-list {
   text-transform: uppercase;
@@ -377,8 +377,8 @@ a {
 
 .footer-list .link {
   text-decoration: none;
-  color: var(--color-dg);
-  font-family: var(--font-p);
+  color: #54585a;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.43;
   font-weight: bold; }
 

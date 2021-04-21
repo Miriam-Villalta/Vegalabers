@@ -1,8 +1,8 @@
 .strenghts-container {
   width: 100%;
   box-sizing: border-box;
-  font-family: var(--font-p);
-  color: var(--color-b);
+  font-family: $font-p;
+  color: $color-b;
   background-color: #f1f1f1;
   line-height: 1.4rem;
   display: flex;
@@ -28,8 +28,8 @@
 }
 
 .strenghts-container .strenghts-font-style {
-  font-family: var(--font-t);
-  color: var(--color-bg);
+  font-family: $font-t;
+  color: $color-bg;
   line-height: 1.4rem;
   font-weight: bold;
   font-size: 22px;

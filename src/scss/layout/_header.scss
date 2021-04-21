@@ -9,17 +9,17 @@
 .header .header-name {
   height: 60px;
   width: 100%;
-  background-color: var(--color-bg);
-  color: var(--color-w);
+  background-color: $color-bg;
+  color: $color-w;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: var(--font-t);
+  font-family: $font-t;
 }
 .header .menu {
   height: 45px;
-  background-color: var(--color-ag);
+  background-color: $color-ag;
   width: 100%;
   display: flex;
   align-items: center;
@@ -29,8 +29,8 @@
 
 .menu .header-link {
   text-decoration: none;
-  color: var(--color-w);
-  font-family: var(--font-t);
+  color: $color-w;
+  font-family: $font-t;
 }
 
 @media (min-width: 768px) {
@@ -43,7 +43,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100vw;
-    background-color: var(--color-bg);
+    background-color: $color-bg;
     height: 60px;
   }
   .header .header-name {
@@ -53,7 +53,7 @@
     justify-content: left;
   }
   .header .menu {
-    background-color: var(--color-bg);
+    background-color: $color-bg;
     height: 60px;
     display: flex;
     justify-content: space-around;

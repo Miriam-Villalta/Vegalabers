@@ -2,16 +2,16 @@
   box-sizing: border-box;
   margin-block: 20px;
   transform: translatey(-10px);
-  font-family: var(--font-t);
+  font-family: $font-t;
   text-transform: uppercase;
-  color: var(--color-ag);
+  color: $color-ag;
 }
 
 .team {
   box-sizing: border-box;
   background-color: #ffffff;
   text-align: center;
-  font-family: var(--font-p);
+  font-family: $font-p;
   padding: 15px;
   margin-bottom: 20px;
   padding-block: 20px;
