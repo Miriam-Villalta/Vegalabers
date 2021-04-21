@@ -454,11 +454,17 @@ a {
     align-items: center;
     text-align: end;
     padding-left: 50%; }
-  .footer-container .link {
-    word-spacing: 100%; }
+  .footer-list .link {
+    line-height: 1.6; }
   .footer-container .footer-img {
     grid-column: 1/2;
     grid-row: 2/2;
     margin: 0; } }
+
+@media (min-width: 1200px) {
+  .footer-container {
+    font-size: 14px; }
+  .footer-list .link {
+    line-height: 1.8; } }
 
 /*# sourceMappingURL=main.css.map */
