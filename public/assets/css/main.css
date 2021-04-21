@@ -212,12 +212,12 @@ html {
 #container {
   box-sizing: content-box;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  background-color: #71b1ee; }
 
 .imagebox {
   box-sizing: border-box;
@@ -230,13 +230,23 @@ html {
   width: 340px;
   height: 75px;
   background-color: #ffffff;
-  border: solid 1px #000000;
   font-family: "Open Sans", sans-serif;
   position: absolute;
   transform: translateY(165px);
-  padding: 1rem;
+  padding: 0.75rem;
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 1.4rem; }
+
+@media all and (min-width: 768px) {
+  .slogan {
+    transform: translate(-138px, 122px);
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.7); } }
+
+@media all and (min-width: 1000px) {
+  .slogan {
+    transform: translate(-138px, 122px); } }
 
 /*.team {
   box-sizing: border-box;
@@ -287,16 +297,16 @@ html {
   font-family: "Open Sans", sans-serif;
   margin: 15px;
   margin-bottom: 20px;
-  padding: 20px; }
+  padding: 20px;
+  line-height: 1.4rem;
+  color: #54585a; }
   @media all and (min-width: 768px) {
     .team__text {
       width: 678px;
-      margin: 45px;
       height: 168px; } }
   @media all and (min-width: 1000px) {
     .team__text {
       width: 678px;
-      margin: 45px;
       height: 200px; } }
 
 .strenghts-container {

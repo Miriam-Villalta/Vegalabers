@@ -52,16 +52,16 @@
     margin: 15px;
     margin-bottom: 20px;
     padding: 20px;
+    line-height: 1.4rem;
+    color: $color-dg;
 
     @media all and (min-width: 768px) {
       width: 678px;
-      margin: 45px;
       height: 168px;
     }
 
     @media all and (min-width: 1000px) {
       width: 678px;
-      margin: 45px;
       height: 200px;
     }
   }
