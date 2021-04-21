@@ -1,4 +1,4 @@
-.team {
+/*.team {
   box-sizing: border-box;
   background-color: #ffffff;
   text-align: center;
@@ -19,4 +19,50 @@
   font-size: 22px;
 }
 
-// mediaqueries color: $color-ag;
+// mediaqueries color: $color-ag;*/
+
+#adalabers {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.team {
+  &__title {
+    box-sizing: border-box;
+    font-family: $font-t;
+    text-transform: uppercase;
+    color: $color-ag;
+    text-align: center;
+    font-size: 1.5rem;
+
+    @media all and (min-width: 768px) {
+      color: $color-bg;
+    }
+  }
+
+  &__text {
+    box-sizing: border-box;
+    /*border: solid 1px black;*/
+    background-color: $color-w;
+    text-align: center;
+    font-family: $font-p;
+    margin: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    @media all and (min-width: 768px) {
+      width: 678px;
+      margin: 45px;
+      height: 168px;
+    }
+
+    @media all and (min-width: 1000px) {
+      width: 678px;
+      margin: 45px;
+      height: 200px;
+    }
+  }
+}

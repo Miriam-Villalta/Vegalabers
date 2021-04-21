@@ -5,28 +5,44 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
+
+  margin-bottom: 60px;
 }
 
 .imagebox {
   box-sizing: border-box;
-  display: flex;
+  /*display: flex;*/
   height: 320px;
+  width: 320px;
   border: solid 1.5px black;
-  margin-bottom: 60px;
 }
 
 .slogan {
   width: 340px;
-  height: 100px;
+  height: 75px;
   background-color: #ffffff;
   border: solid 1px #000000;
   font-family: $font-p;
   position: absolute;
-  transform: translateY(-130px);
-
-  padding: 20px;
+  transform: translateY(165px);
+  padding: 1rem;
   font-weight: bold;
   font-size: 18px;
-  margin: 20px;
+}
+
+@media all and (min-width: 768px) {
+  .slogan {
+  }
+
+  .imagebox {
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .slogan {
+  }
+
+  .imagebox {
+  }
 }
