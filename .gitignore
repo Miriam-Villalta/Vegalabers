@@ -49,6 +49,7 @@ node_modules/
 
 # Public folder
 public
+docs
 
 # vscode
 .vscode
