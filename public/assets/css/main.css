@@ -144,9 +144,12 @@ input {
   -moz-appearance: none;
   appearance: none; }
 
+<<<<<<< HEAD
 h2 {
   color: red; }
 
+=======
+>>>>>>> 5655af1c2ccb83a5090f42a3b1018c817379a46f
 .code {
   font-size: 16px;
   background: #d8d8d8;
