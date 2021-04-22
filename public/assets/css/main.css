@@ -144,9 +144,12 @@ input {
   -moz-appearance: none;
   appearance: none; }
 
+<<<<<<< HEAD
 h2 {
   color: red; }
 
+=======
+>>>>>>> 5655af1c2ccb83a5090f42a3b1018c817379a46f
 .code {
   font-size: 16px;
   background: #d8d8d8;
@@ -414,6 +417,7 @@ a {
   padding-top: 20px;
   width: 127px;
   display: flex;
+<<<<<<< HEAD
   justify-content: space-between;
   margin: 0 auto; }
 
@@ -421,6 +425,9 @@ a {
   .icons {
     text-align: left;
     margin: 0 31px; } }
+=======
+  justify-content: space-between; }
+>>>>>>> 5655af1c2ccb83a5090f42a3b1018c817379a46f
 
 .bio {
   padding: 30px, 15px, 45px;
@@ -431,11 +438,14 @@ a {
   text-align: center;
   color: #54585a;
   margin: 5px; }
+<<<<<<< HEAD
 
 @media (min-width: 768px) {
   .bio {
     text-align: left;
     margin-left: 31px; } }
+=======
+>>>>>>> 5655af1c2ccb83a5090f42a3b1018c817379a46f
 
 .profile {
   display: flex;
@@ -447,6 +457,7 @@ a {
   position: relative;
   align-items: center; }
 
+<<<<<<< HEAD
 @media (min-width: 768px) {
   .profile {
     display: flex;
@@ -455,6 +466,8 @@ a {
     display: flex;
     flex-direction: row-reverse; } }
 
+=======
+>>>>>>> 5655af1c2ccb83a5090f42a3b1018c817379a46f
 .icons :link:after {
   content: ".";
   position: absolute;
