@@ -41,13 +41,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     width: 100vw;
     background-color: $color-bg;
     height: 60px;
   }
   .header .header-name {
-    padding-left: 45px;
+    padding-left: 12%;
     text-align: left;
     display: flex;
     justify-content: left;
@@ -56,8 +55,8 @@
     background-color: $color-bg;
     height: 60px;
     display: flex;
-    justify-content: space-around;
     padding: right 26px;
+    justify-content: center;
   }
   .menu .header-link {
     padding-right: 19px;
