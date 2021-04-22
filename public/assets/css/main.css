@@ -144,12 +144,6 @@ input {
   -moz-appearance: none;
   appearance: none; }
 
-<<<<<<< HEAD
-h2 {
-  color: red; }
-
-=======
->>>>>>> 5655af1c2ccb83a5090f42a3b1018c817379a46f
 .code {
   font-size: 16px;
   background: #d8d8d8;
@@ -411,23 +405,25 @@ a {
 @media (min-width: 768px) {
   .name {
     text-align: left;
+    margin-left: 31px; }
+  .profile2.name {
+    text-align: center;
     margin-left: 31px; } }
 
 .icons {
   padding-top: 20px;
   width: 127px;
   display: flex;
-<<<<<<< HEAD
   justify-content: space-between;
   margin: 0 auto; }
 
 @media (min-width: 768px) {
   .icons {
     text-align: left;
-    margin: 0 31px; } }
-=======
-  justify-content: space-between; }
->>>>>>> 5655af1c2ccb83a5090f42a3b1018c817379a46f
+    margin: 0 31px; }
+  .profile2 {
+    text-align: right;
+    margin-left: 0 31px; } }
 
 .bio {
   padding: 30px, 15px, 45px;
@@ -438,14 +434,14 @@ a {
   text-align: center;
   color: #54585a;
   margin: 5px; }
-<<<<<<< HEAD
 
 @media (min-width: 768px) {
   .bio {
     text-align: left;
+    margin-left: 31px; }
+  .profile2.profile-info {
+    text-align: right;
     margin-left: 31px; } }
-=======
->>>>>>> 5655af1c2ccb83a5090f42a3b1018c817379a46f
 
 .profile {
   display: flex;
@@ -457,17 +453,14 @@ a {
   position: relative;
   align-items: center; }
 
-<<<<<<< HEAD
 @media (min-width: 768px) {
-  .profile {
+  .profile1 {
     display: flex;
     flex-direction: row; }
   .profile2 {
     display: flex;
     flex-direction: row-reverse; } }
 
-=======
->>>>>>> 5655af1c2ccb83a5090f42a3b1018c817379a46f
 .icons :link:after {
   content: ".";
   position: absolute;

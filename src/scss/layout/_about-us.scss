@@ -29,6 +29,10 @@ a {
     text-align: left;
     margin-left: 31px;
   }
+  .profile2.name {
+    text-align: center;
+    margin-left: 31px;
+  }
 }
 
 .icons {
@@ -43,6 +47,10 @@ a {
   .icons {
     text-align: left;
     margin: 0 31px;
+  }
+  .profile2 {
+    text-align: right;
+    margin-left: 0 31px;
   }
 }
 
@@ -62,6 +70,11 @@ a {
     text-align: left;
     margin-left: 31px;
   }
+
+  .profile2.profile-info {
+    text-align: right;
+    margin-left: 31px;
+  }
 }
 
 .profile {
@@ -76,7 +89,7 @@ a {
 }
 
 @media (min-width: 768px) {
-  .profile {
+  .profile1 {
     display: flex;
     flex-direction: row;
   }
