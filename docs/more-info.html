@@ -5,17 +5,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" ></link>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
   <title>Contacto</title>
 </head>
 <body>
-  HEADER
+  <header class="header">
+    <div class="header-name">
+      <h1>contacto</h1>
+    </div>
+
+    <nav class="menu">
+      <a class="header-link" href="#adalabers">equipo</a>
+      <a class="header-link" href="#woareus">quienes somos</a>
+      <a class="header-link" href="">contacto</a>
+    </nav>
+  </header>
 
 
-  Contacto
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima nostrum expedita quasi aperiam consectetur optio id et sequi deserunt sunt cum a eaque veniam, dicta quod consequatur? Praesentium, eum.
-  Todos los campos marcados con * son obligatorios.
+  <section class="container">
+    <h2 class="container__title">Contacto</h2>
+    <p class="container__item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima nostrum expedita quasi aperiam consectetur optio id et sequi deserunt sunt cum a eaque veniam, dicta quod consequatur? Praesentium, eum.
+      Todos los campos marcados con * son obligatorios.
+    </p>
+  </section>
 
-  <form action="/signup" metod="post">
+  <form action="/signup" metod="post" class="form-container">
     <label for="name">Nombre completo *
       <input type="text" name="name" id="name" placeholder="Nombre..." required>
     </label>
@@ -32,6 +51,18 @@
 
   </form>
 
-  FOOTER
+  <footer class="footer">
+      <section class="footer-container">
+      <div class="footer-copy">
+        <p> Las Vengalabers &copy;2020</p>
+      </div>
+        <ul class="footer-list">
+          <li><a class="link" href="#adalabers">Equipo</a> </li>
+          <li><a class="link" href="#woareus">Quiénes somos</a> </li>
+          <li><a class="link" href="">Contacto</a></li> 
+        </ul>
+      <img src="https://github.com/Adalab/project-promo-x-module-1-team-profes/blob/main/logo-adalab.png?raw=true" alt="logo-adalab" class="footer-img"></img>
+      </section>
+  </footer>   
 </body>
 </html>
