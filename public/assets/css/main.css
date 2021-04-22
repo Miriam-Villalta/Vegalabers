@@ -199,12 +199,11 @@ input {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     width: 100vw;
     background-color: #099d8d;
     height: 60px; }
   .header .header-name {
-    padding-left: 45px;
+    padding-left: 12%;
     text-align: left;
     display: flex;
     justify-content: left; }
@@ -212,8 +211,8 @@ input {
     background-color: #099d8d;
     height: 60px;
     display: flex;
-    justify-content: space-around;
-    padding: right 26px; }
+    padding: right 26px;
+    justify-content: center; }
   .menu .header-link {
     padding-right: 19px; } }
 
@@ -308,7 +307,7 @@ input {
   padding-left: 12%;
   padding-right: 12%;
   padding-top: 1.8rem;
-  padding-bottom: 0.9rem; }
+  padding-bottom: 2.8rem; }
 
 .strenghts-container .triangle {
   display: flex;
