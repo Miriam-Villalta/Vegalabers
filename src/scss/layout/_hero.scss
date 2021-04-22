@@ -6,14 +6,13 @@
   flex-direction: column;
   width: 100%;
   margin-bottom: 60px;
-  background-color: rgb(113, 177, 238);
 }
 
 .imagebox {
   box-sizing: border-box;
   /*display: flex;*/
   height: 320px;
-  width: 320px;
+  width: 500px;
   border: solid 1.5px black;
 }
 
@@ -42,7 +41,7 @@
 
 @media all and (min-width: 1000px) {
   .slogan {
-    transform: translate(-138px, 122px);
+    transform: translate(-268px, 122px);
   }
 
   .imagebox {
