@@ -152,9 +152,9 @@ textarea {
   font-size: 100%; }
 
 .hero-container {
-  width: 100%; }
+  width: 90%; }
   .hero-container .hero-container__image {
-    width: 100%; }
+    width: 90%; }
 
 .container {
   width: 100vw;
@@ -206,6 +206,17 @@ textarea {
   .form-container .mandatory_star {
     color: #14d9c4;
     background-color: transparent; }
+
+@media (min-width: 768px) {
+  .form-container {
+    width: 100vw;
+    justify-content: center;
+    align-content: center; }
+    .form-container .label {
+      width: 443px; }
+    .form-container .input-box.submit {
+      width: 206px;
+      align-self: flex-end; } }
 
 .code {
   font-size: 16px;
