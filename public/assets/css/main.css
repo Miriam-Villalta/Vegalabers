@@ -260,7 +260,8 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px; }
+  padding-top: 20px;
+  scroll-margin-top: 105px; }
 
 .team__title {
   box-sizing: border-box;
@@ -286,7 +287,8 @@ input {
   color: #54585a; }
   @media all and (min-width: 768px) {
     .team__text {
-      width: 678px; } }
+      width: 678px;
+      scroll-margin-top: 90px; } }
   @media all and (min-width: 1000px) {
     .team__text {
       width: 678px;
@@ -359,7 +361,8 @@ a {
 
 .aboutus {
   text-align: center;
-  padding-top: 30px; }
+  padding-top: 30px;
+  scroll-margin-top: 105px; }
 
 .title {
   font-family: "Rubik", sans-serif;
@@ -378,6 +381,8 @@ a {
   font-weight: bold; }
 
 @media (min-width: 768px) {
+  .aboutus {
+    scroll-margin-top: 90px; }
   .name {
     text-align: left;
     margin-left: 31px; }

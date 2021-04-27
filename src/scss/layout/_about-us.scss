@@ -4,6 +4,7 @@ a {
 .aboutus {
   text-align: center;
   padding-top: 30px;
+  scroll-margin-top: 105px;
 }
 
 .title {
@@ -25,6 +26,9 @@ a {
 }
 
 @media (min-width: 768px) {
+  .aboutus {
+    scroll-margin-top: 90px;
+  }
   .name {
     text-align: left;
     margin-left: 31px;

@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+  scroll-margin-top: 105px;
 }
 .team {
   &__title {
@@ -34,6 +35,7 @@
 
     @media all and (min-width: 768px) {
       width: 678px;
+      scroll-margin-top: 90px;
     }
 
     @media all and (min-width: 1000px) {
