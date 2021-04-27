@@ -7,3 +7,51 @@ input {
   -moz-appearance: none;
   appearance: none;
 }
+
+.hero-container {
+  width: 100%;
+
+  .hero-container__image {
+    width: 100%;
+  }
+}
+
+.container {
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  .container-contact__title {
+    text-transform: uppercase;
+    color: $color-bg;
+  }
+}
+
+.form-container {
+  height: 300px;
+  font-family: $font-p;
+  line-height: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  border: solid 1px black;
+
+  .mandatory {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    align-self: center;
+    font-size: 13px;
+    .mandatory_star {
+      color: $color-ag;
+      background-color: transparent;
+    }
+  }
+}

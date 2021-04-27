@@ -15,15 +15,24 @@
 <body>
   <include src="./partials/header.html" title="contacto"></include>
 
+  <section class="hero-container">
+    <div class="hero-container__image">
+      <img src="https://image-placeholder.com/images/actual-size/320x320.png" alt="prueba hero img">
+
+    </div>
+
+
+  </section>
+
   <section class="container">
-    <h2 class="container__title">Contacto</h2>
-    <p class="container__item">
+    <h2 class="team__title container-contact__title">Contacto</h2>
+    <p class="container__item team__text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima nostrum expedita quasi aperiam consectetur optio id et sequi deserunt sunt cum a eaque veniam, dicta quod consequatur? Praesentium, eum.
-      Todos los campos marcados con * son obligatorios.
     </p>
   </section>
 
   <form action="/signup" metod="post" class="form-container">
+    <span class="mandatory">Todos los campos marcados con <mark class="mandatory_star">*</mark> son obligatorios.</span>
     <label for="name">Nombre completo *
       <input type="text" name="name" id="name" placeholder="Nombre..." required>
     </label>
