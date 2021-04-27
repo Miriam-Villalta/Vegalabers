@@ -179,7 +179,8 @@ textarea {
   justify-content: center;
   align-items: right;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  padding-bottom: 30px; }
   .form-container .mandatory {
     display: block;
     margin-bottom: 50px;
