@@ -189,6 +189,8 @@ textarea {
   .form-container .label {
     padding-top: 5px;
     padding-bottom: 10px; }
+    .form-container .label .email-box {
+      font-weight: bold; }
   .form-container .submit {
     margin-top: 25px;
     background-color: #099d8d;
