@@ -32,20 +32,22 @@
   </section>
 
   <form action="/signup" metod="post" class="form-container">
+   
     <span class="mandatory">Todos los campos marcados con <mark class="mandatory_star">*</mark> son obligatorios.</span>
-    <label for="name">Nombre completo *
-      <input type="text" name="name" id="name" placeholder="Nombre..." required>
+    
+    <label class="label-name label" for="name">Nombre completo *
+      <input class="input-box" type="text" name="name" id="name" placeholder="Nombre..." required>
     </label>
-    <label for="email">Email *
-      <input type="email" name="email" id="email" placeholder="nombre.apellidos@mail.com" required>
+    <label class="label-mail label" for="email">Email *
+      <input class="input-box" type="email" name="email" id="email" placeholder="nombre.apellidos@mail.com" required>
     </label>
-    <label for="tlf">Teléfono
-      <input type="tel" name="tlf" id="tlf" placeholder="Ej. 123456789">
+    <label class="label-phone label" for="tlf">Teléfono
+      <input class="input-box" type="tel" name="tlf" id="tlf" placeholder="Ej. 123456789">
     </label>
-    <label for="msg">Mensaje *
-      <input type="text" name="msg" id="msg" placeholder="¿Qué necesitas?" required>
+    <label class="label-message label" for="msg">Mensaje *
+      <input class="input-box" type="text" name="msg" id="msg" placeholder="¿Qué necesitas?" required>
     </label>
-    <input type="submit" value="Enviar">
+    <input class="input-box label submit" type="submit" value="Enviar">
 
   </form>
 
