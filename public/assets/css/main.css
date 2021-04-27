@@ -286,8 +286,7 @@ input {
   color: #54585a; }
   @media all and (min-width: 768px) {
     .team__text {
-      width: 678px;
-      height: 168px; } }
+      width: 678px; } }
   @media all and (min-width: 1000px) {
     .team__text {
       width: 678px;
