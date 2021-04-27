@@ -165,7 +165,7 @@ textarea {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 35px;
-  padding-bottom: 30px; }
+  padding-bottom: 10px; }
   .container .container-contact__title {
     text-transform: uppercase;
     color: #099d8d; }
@@ -182,7 +182,6 @@ textarea {
   padding-right: 15px; }
   .form-container .mandatory {
     display: block;
-    margin-top: 30px;
     margin-bottom: 50px;
     align-self: center;
     font-size: 13px; }
