@@ -107,6 +107,10 @@ textarea {
     background-image: no-repeat;
     top: 55px;
   }
+  .container__item .team__text {
+    height: 80px;
+    width: 440px;
+  }
 
   .form-container {
     display: flex;
@@ -121,6 +125,10 @@ textarea {
 }
 
 @media (min-width: 1200px) {
+  .container {
+    height: 220px;
+  }
+
   .hero-container {
     background-color: black;
     background-position: right;
