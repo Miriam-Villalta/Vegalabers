@@ -19,37 +19,52 @@
     </div>
 
     <nav class="menu">
-      <a class="header-link" href="#adalabers">equipo</a>
-      <a class="header-link" href="#woareus">quienes somos</a>
+      <a class="header-link" href="./index.html#adalabers">equipo</a>
+      <a class="header-link" href="./index.html#woareus">quienes somos</a>
       <a class="header-link" href="./more-info.html">contacto</a>
     </nav>
   </header>
 
 
+  <section class="hero-container">
+    <div class="hero-container__image">
+
+    </div>
+
+
+  </section>
+
   <section class="container">
-    <h2 class="container__title">Contacto</h2>
-    <p class="container__item">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima nostrum expedita quasi aperiam consectetur optio id et sequi deserunt sunt cum a eaque veniam, dicta quod consequatur? Praesentium, eum.
-      Todos los campos marcados con * son obligatorios.
+    <h2 class="team__title container-contact__title">Contacto</h2>
+    <p class="container__item team__text">
+      Si necesitas los servicios de las Vengalabers en tu misión de salvar el mundo ¡no dudes en ponerte en contacto con nosotras! Tienes dos opciones: poner una señal luminosa en el edificio más alto de tu ciudad, o rellenar el siguiente formulario de contacto.
     </p>
   </section>
 
-  <form action="/signup" metod="post" class="form-container">
-    <label for="name">Nombre completo *
-      <input type="text" name="name" id="name" placeholder="Nombre..." required>
-    </label>
-    <label for="email">Email *
-      <input type="email" name="email" id="email" placeholder="nombre.apellidos@mail.com" required>
-    </label>
-    <label for="tlf">Teléfono
-      <input type="tel" name="tlf" id="tlf" placeholder="Ej. 123456789">
-    </label>
-    <label for="msg">Mensaje *
-      <input type="text" name="msg" id="msg" placeholder="¿Qué necesitas?" required>
-    </label>
-    <input type="submit" value="Enviar">
 
-  </form>
+  
+  
+      <form action="/signup" metod="post" class="form-container">
+  
+        <span class="mandatory">Todos los campos marcados con <mark class="mandatory_star">*</mark> son obligatorios.</span>
+  
+        <label class="label-name label" for="name">Nombre completo <mark class="mandatory_star">*</mark>
+          <input class="input-box" type="text" name="name" id="name" placeholder="Nombre..." required>
+        </label>
+        <label class="label-mail label" for="email">Email <mark class="mandatory_star">*</mark>
+          <input class="input-box email-box" type="email" name="email" id="email" placeholder="nombre.apellidos@mail.com" required>
+        </label>
+        <label class="label-phone label" for="tlf">Teléfono
+          <input class="input-box" type="tel" name="tlf" id="tlf" placeholder="Ej. 123456789">
+        </label>
+        <label class="label-message label" for="msg">Mensaje <mark class="mandatory_star">*</mark>
+          <input class="input-box" type="text" name="msg" id="msg" placeholder="¿Qué necesitas?" required>
+        </label>
+        <input class="input-box submit" type="submit" value="Enviar">
+  
+      </form>
+  
+
 
   <footer class="footer">
       <section class="footer-container">
@@ -57,8 +72,8 @@
         <p> Las Vengalabers &copy;2020</p>
       </div>
         <ul class="footer-list">
-          <li><a class="link" href="#adalabers">Equipo</a> </li>
-          <li><a class="link" href="#woareus">Quiénes somos</a> </li>
+          <li><a class="link" href="./index.html#adalabers">Equipo</a> </li>
+          <li><a class="link" href="./index.html#woareus">Quiénes somos</a> </li>
           <li><a class="link" href="./more-info.html">Contacto</a></li> 
         </ul>
       <img src="https://github.com/Adalab/project-promo-x-module-1-team-profes/blob/main/logo-adalab.png?raw=true" alt="logo-adalab" class="footer-img"></img>
