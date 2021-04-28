@@ -17,15 +17,12 @@ textarea {
 }
 
 .hero-container {
-  width: 70%;
-
-  .hero-container__image {
-    background: url(../images/contacto.jpg);
-    background-size: cover;
-    background-image: no-repeat;
-    height: 300px;
-    width: 100vw;
-  }
+  height: 300px;
+  width: 100vw;
+  background: url(../images/contacto.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 80px;
 }
 
 .container {
@@ -39,6 +36,7 @@ textarea {
   padding-right: 15px;
   padding-top: 35px;
   padding-bottom: 10px;
+  margin-top: 80px;
 
   .container-contact__title {
     text-transform: uppercase;
@@ -103,10 +101,11 @@ textarea {
 }
 
 @media (min-width: 768px) {
-  .hero-container .hero-container__image {
+  .hero-container {
     background: url(../images/contacto_tablet.jpg);
     background-size: cover;
     background-image: no-repeat;
+    padding-top: 80px;
   }
 
   .form-container {
