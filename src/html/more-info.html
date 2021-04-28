@@ -16,12 +16,7 @@
   <include src="./partials/header.html" title="contacto"></include>
 
   <section class="hero-container">
-    <div class="hero-container__image">
-      <img src="https://image-placeholder.com/images/actual-size/320x320.png" alt="prueba hero img">
-
-    </div>
-
-
+    <div class="hero-img"></div>
   </section>
 
   <section class="container">
@@ -34,19 +29,21 @@
 
   
   
-      <form action="/signup" metod="post" class="form-container">
+      <form action="https://formspree.io/f/mrgreeba" method="post" class="form-container">
   
         <span class="mandatory">Todos los campos marcados con <mark class="mandatory_star">*</mark> son obligatorios.</span>
   
         <label class="label-name label" for="name">Nombre completo <mark class="mandatory_star">*</mark>
           <input class="input-box" type="text" name="name" id="name" placeholder="Nombre..." required>
         </label>
-        <label class="label-mail label" for="email">Email <mark class="mandatory_star">*</mark>
-          <input class="input-box email-box" type="email" name="email" id="email" placeholder="nombre.apellidos@mail.com" required>
-        </label>
-        <label class="label-phone label" for="tlf">Teléfono
-          <input class="input-box" type="tel" name="tlf" id="tlf" placeholder="Ej. 123456789">
-        </label>
+        <div class="section-form-wrapper">
+          <label class="label-mail label" for="email">Email <mark class="mandatory_star">*</mark>
+            <input class="input-box email-box" type="email" name="email" id="email" placeholder="nombre.apellidos@mail.com" required>
+          </label>
+          <label class="label-phone label" for="tlf">Teléfono
+            <input class="input-box" type="tel" name="tlf" id="tlf" placeholder="Ej. 123456789">
+          </label>
+        </div>
         <label class="label-message label" for="msg">Mensaje <mark class="mandatory_star">*</mark>
           <input class="input-box" type="text" name="msg" id="msg" placeholder="¿Qué necesitas?" required>
         </label>

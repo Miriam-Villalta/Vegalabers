@@ -26,15 +26,16 @@
 
 @media all and (min-width: 768px) {
   #container {
-    margin-bottom: 35px;
     height: 100vh;
     background: url(/assets/images/fondo_tablet.jpg) no-repeat center;
-    background-size: cover;
+    transform: translate(0, -35px);
+    margin-bottom: 0;
   }
   .slogan {
-    transform: translate(-148px, 240px);
+    transform: translate(-178px, 210px);
     background-color: $color-w;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(252, 197, 197, 0.7);
+    font-style: italic;
   }
 }
 
@@ -43,8 +44,9 @@
     height: 100vh;
     background: url(/assets/images/fondo_tablet.jpg) no-repeat center;
     background-size: cover;
+    transform: translate(0, 60px);
   }
   .slogan {
-    transform: translate(-400px, 240px);
+    transform: translate(-400px, 305px);
   }
 }
