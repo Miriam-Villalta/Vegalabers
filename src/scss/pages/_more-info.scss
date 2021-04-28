@@ -20,7 +20,11 @@ textarea {
   width: 70%;
 
   .hero-container__image {
-    width: 70%;
+    background: url(../images/contacto.jpg);
+    background-size: cover;
+    background-image: no-repeat;
+    height: 300px;
+    width: 100vw;
   }
 }
 
