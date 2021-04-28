@@ -33,10 +33,6 @@ a {
     text-align: left;
     margin-left: 31px;
   }
-  .profile2.name {
-    text-align: center;
-    margin-left: 31px;
-  }
 }
 
 .icons {
@@ -101,6 +97,14 @@ a {
   .profile2 {
     display: flex;
     flex-direction: row-reverse;
+    margin-right: auto;
+  }
+
+  .profile-info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 31px;
   }
 }
 
