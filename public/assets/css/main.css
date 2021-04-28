@@ -236,7 +236,23 @@ textarea {
   .hero-container {
     background-color: black;
     background-position: right;
-    top: 60px; } }
+    top: 60px; }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .label {
+    width: 600px; }
+  .label-mail {
+    width: 395px; }
+  .label-phone {
+    width: 162px; }
+  .section-form-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }
 
 .code {
   font-size: 16px;
