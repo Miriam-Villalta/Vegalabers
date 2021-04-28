@@ -105,7 +105,7 @@ textarea {
     background: url(../images/contacto_tablet.jpg);
     background-size: cover;
     background-image: no-repeat;
-    padding-top: 80px;
+    top: 55px;
   }
 
   .form-container {
@@ -117,6 +117,14 @@ textarea {
       width: 150px;
       align-self: flex-end;
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-container {
+    background-color: black;
+    background-position: right;
+    top: 60px;
   }
 }
 
