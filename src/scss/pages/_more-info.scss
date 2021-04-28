@@ -95,9 +95,12 @@ textarea {
     display: block;
     border: solid 1px #b8b8b9;
   }
-  .message-box {
+  .label-message .message-box {
     height: 105px;
+    display: inline-block;
+    justify-: start;
   }
+
   .mandatory_star {
     color: $color-ag;
     background-color: transparent;

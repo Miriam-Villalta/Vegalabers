@@ -4,8 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
   scroll-margin-top: 105px;
+  margin-top: 100px;
 }
 .team {
   &__title {
@@ -23,7 +23,6 @@
 
   &__text {
     box-sizing: border-box;
-    /*border: solid 1px black;*/
     background-color: $color-w;
     text-align: center;
     font-family: $font-p;

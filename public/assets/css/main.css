@@ -214,8 +214,10 @@ textarea {
     height: 45px;
     display: block;
     border: solid 1px #b8b8b9; }
-  .form-container .message-box {
-    height: 105px; }
+  .form-container .label-message .message-box {
+    height: 105px;
+    display: inline-block;
+    justify-: start; }
   .form-container .mandatory_star {
     color: #14d9c4;
     background-color: transparent; }
@@ -359,22 +361,24 @@ textarea {
 
 @media all and (min-width: 768px) {
   #container {
-    margin-bottom: 35px;
     height: 100vh;
     background: url(/assets/images/fondo_tablet.jpg) no-repeat center;
-    background-size: cover; }
+    transform: translate(0, -35px);
+    margin-bottom: 0; }
   .slogan {
-    transform: translate(-148px, 240px);
+    transform: translate(-178px, 210px);
     background-color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.7); } }
+    background-color: rgba(252, 197, 197, 0.7);
+    font-style: italic; } }
 
 @media all and (min-width: 1000px) {
   #container {
     height: 100vh;
     background: url(/assets/images/fondo_tablet.jpg) no-repeat center;
-    background-size: cover; }
+    background-size: cover;
+    transform: translate(0, 60px); }
   .slogan {
-    transform: translate(-400px, 240px); } }
+    transform: translate(-400px, 305px); } }
 
 #adalabers {
   box-sizing: border-box;
@@ -382,8 +386,8 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
-  scroll-margin-top: 105px; }
+  scroll-margin-top: 105px;
+  margin-top: 100px; }
 
 .team__title {
   box-sizing: border-box;
@@ -398,7 +402,6 @@ textarea {
 
 .team__text {
   box-sizing: border-box;
-  /*border: solid 1px black;*/
   background-color: #ffffff;
   text-align: center;
   font-family: "Open Sans", sans-serif;
