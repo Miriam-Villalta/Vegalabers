@@ -80,6 +80,10 @@ textarea {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 4px;
+    &:hover {
+      background-color: $color-ag;
+      cursor: pointer;
+    }
   }
   .input-box {
     width: 100%;
