@@ -63,17 +63,15 @@ a {
   text-align: center;
   color: #54585a;
   margin: 5px;
+  margin-left: 31px;
 }
 
 @media (min-width: 768px) {
-  .bio {
+  .profile1 .bio {
     text-align: left;
-    margin-left: 31px;
   }
-
-  .profile2.profile-info {
+  .profile2 .bio {
     text-align: right;
-    margin-left: 31px;
   }
 }
 
@@ -113,4 +111,7 @@ a {
   position: absolute;
   margin-left: 5px;
   margin-top: -5px;
+}
+.icons :link:last-child:after {
+  content: "";
 }

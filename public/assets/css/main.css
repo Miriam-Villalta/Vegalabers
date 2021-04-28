@@ -495,15 +495,14 @@ a {
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
-  margin: 5px; }
+  margin: 5px;
+  margin-left: 31px; }
 
 @media (min-width: 768px) {
-  .bio {
-    text-align: left;
-    margin-left: 31px; }
-  .profile2.profile-info {
-    text-align: right;
-    margin-left: 31px; } }
+  .profile1 .bio {
+    text-align: left; }
+  .profile2 .bio {
+    text-align: right; } }
 
 .profile {
   display: flex;
@@ -534,6 +533,9 @@ a {
   position: absolute;
   margin-left: 5px;
   margin-top: -5px; }
+
+.icons :link:last-child:after {
+  content: ""; }
 
 .footer {
   border-top: solid 1px;
