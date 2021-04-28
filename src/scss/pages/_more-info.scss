@@ -64,6 +64,7 @@ textarea {
     align-self: center;
     font-size: 13px;
   }
+
   .label {
     padding-top: 5px;
     padding-bottom: 10px;
@@ -93,6 +94,9 @@ textarea {
     height: 45px;
     display: block;
     border: solid 1px #b8b8b9;
+  }
+  .message-box {
+    height: 105px;
   }
   .mandatory_star {
     color: $color-ag;

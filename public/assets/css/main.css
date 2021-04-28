@@ -214,6 +214,8 @@ textarea {
     height: 45px;
     display: block;
     border: solid 1px #b8b8b9; }
+  .form-container .message-box {
+    height: 105px; }
   .form-container .mandatory_star {
     color: #14d9c4;
     background-color: transparent; }
