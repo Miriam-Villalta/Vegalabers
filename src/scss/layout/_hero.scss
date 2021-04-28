@@ -6,14 +6,9 @@
   flex-direction: column;
   width: 100%;
   margin-bottom: 100px;
-}
-
-.imagebox {
-  box-sizing: border-box;
-  display: flex;
-  height: 421px;
-  width: 320px;
-  background-image: url(/assets/images/fondo_mobile.jpg);
+  height: 100vh;
+  background: url(/assets/images/fondo_mobile.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .slogan {
@@ -22,7 +17,7 @@
   background-color: #ffffff;
   font-family: $font-p;
   position: absolute;
-  transform: translateY(250px);
+  transform: translateY(305px);
   padding: 0.75rem;
   font-weight: bold;
   font-size: 18px;
@@ -32,27 +27,24 @@
 @media all and (min-width: 768px) {
   #container {
     margin-bottom: 35px;
+    height: 100vh;
+    background: url(/assets/images/fondo_tablet.jpg) no-repeat center;
+    background-size: cover;
   }
   .slogan {
     transform: translate(-148px, 240px);
     background-color: $color-w;
     background-color: rgba(255, 255, 255, 0.7);
   }
-  .imagebox {
-    margin-top: 60px;
-    height: 421px;
-    width: 768px;
-    background-image: url(/assets/images/fondo_tablet.jpg);
-  }
 }
 
 @media all and (min-width: 1000px) {
+  #container {
+    height: 100vh;
+    background: url(/assets/images/fondo_tablet.jpg) no-repeat center;
+    background-size: cover;
+  }
   .slogan {
     transform: translate(-400px, 240px);
-  }
-
-  .imagebox {
-    height: 421px;
-    width: 1280px;
   }
 }
