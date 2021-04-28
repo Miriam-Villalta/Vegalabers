@@ -219,6 +219,10 @@ textarea {
     background-color: transparent; }
 
 @media (min-width: 768px) {
+  .hero-container .hero-container__image {
+    background: url(../images/contacto_tablet.jpg);
+    background-size: cover;
+    background-image: no-repeat; }
   .form-container {
     display: flex;
     justify-content: center;
