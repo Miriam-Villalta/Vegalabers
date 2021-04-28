@@ -193,7 +193,8 @@ textarea {
       font-weight: bold; }
     .form-container .label :active,
     .form-container .label :hover {
-      outline-color: #14d9c4; }
+      outline-color: #14d9c4;
+      border: solid #14d9c4; }
   .form-container .submit {
     margin-top: 25px;
     background-color: #099d8d;

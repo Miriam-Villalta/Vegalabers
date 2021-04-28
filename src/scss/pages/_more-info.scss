@@ -71,6 +71,7 @@ textarea {
     :active,
     :hover {
       outline-color: $color-ag;
+      border: solid $color-ag;
     }
   }
   .submit {
