@@ -152,13 +152,12 @@ textarea {
   font-size: 100%; }
 
 .hero-container {
-  width: 70%; }
-  .hero-container .hero-container__image {
-    background: url(../images/contacto.jpg);
-    background-size: cover;
-    background-image: no-repeat;
-    height: 300px;
-    width: 100vw; }
+  height: 300px;
+  width: 100vw;
+  background: url(../images/contacto.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 80px; }
 
 .container {
   width: 100vw;
@@ -169,7 +168,8 @@ textarea {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 35px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  margin-top: 80px; }
   .container .container-contact__title {
     text-transform: uppercase;
     color: #099d8d; }
@@ -219,10 +219,14 @@ textarea {
     background-color: transparent; }
 
 @media (min-width: 768px) {
-  .hero-container .hero-container__image {
+  .hero-container {
     background: url(../images/contacto_tablet.jpg);
     background-size: cover;
-    background-image: no-repeat; }
+    background-image: no-repeat;
+    top: 55px; }
+  .container__item .team__text {
+    height: 80px;
+    width: 440px; }
   .form-container {
     display: flex;
     justify-content: center;
@@ -230,6 +234,30 @@ textarea {
     .form-container .input-box.submit {
       width: 150px;
       align-self: flex-end; } }
+
+@media (min-width: 1200px) {
+  .container {
+    height: 220px; }
+  .hero-container {
+    background-color: black;
+    background-position: right;
+    top: 60px; }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .label {
+    width: 600px; }
+  .label-mail {
+    width: 395px; }
+  .label-phone {
+    width: 162px; }
+  .section-form-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }
 
 .code {
   font-size: 16px;
